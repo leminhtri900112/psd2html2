@@ -22,7 +22,6 @@
         flex-wrap: wrap;
     }
     .button--video {
-        margin-left: 0;
         margin-top: 2rem;
     }
     .header__content--tilte {
@@ -31,5 +30,18 @@
     }
     .header__content--para {
         margin-bottom: 2rem;
+    }
+    /* about */
+    .about__inf__content {
+        margin-top: 0;
+    }
+    .about__inf__content img {
+        width: 50px;
+    }
+    .about__inf--img1 {
+        left: -25%;
+    }
+    .about__inf--img2 {
+        right: -12%;
     }
 }

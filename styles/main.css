@@ -15,8 +15,8 @@
     border: none; 
     color: #ffffff;
 }
-.button-radius {
-    border-radius: 1rem;
+.button--radius {
+    border-radius: 3rem;
 }
 *{
     box-sizing: inherit;
@@ -130,7 +130,8 @@ img {
     line-height: 5rem;
     text-align: center;
     font-weight: 300;
-    margin-right: 6rem;
+    margin: 0 3rem;
+    
 }
 .button--modifi i {
     padding-left: 6px;
@@ -140,6 +141,7 @@ img {
     
     display: flex;
     align-items: center;
+    margin: 0 3rem;
 }
 .button--video span {
     font-size: 1.4rem;
@@ -159,4 +161,47 @@ img {
     max-width: 43,4375%;
     z-index: -2;
 }
+/* about */
+.about__inf {
+    text-align: center;
+    position: relative;
+}
+.about__inf--img1 {
+    position: absolute;
+    top: 0;
+    left: -5%;
+}
+.about__inf--img2 {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translateY(-50%);
+}
+.about__inf__content {
+    padding: 13.5% 13.5%;
+    margin-top: 10rem;
+    z-index: 5;
+}
+.about__inf__content img {
+    margin: auto;
+    width: 10rem;
+}
+.about__inf__content h3 {
+    color: var(--content-text);
+    font-size: 1.5rem;
+    margin: 4rem 0;
 
+}
+.content h2 {
+    font-size: 4.2rem;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+.content p {
+    margin: 0;
+    margin-bottom: 7rem;
+    color: var(--content-text);
+    font-size: 1.5rem;
+}
