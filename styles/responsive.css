@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .header__top--nav, .header__image {
+        display: none;
+    }
+    .menu__collapse {
+        display: block;
+        font-size: 3rem;
+        color: #ff817e;
+        z-index: 10;
+    }
+    .header__top {
+        justify-content: space-between;
+        height: 10rem ;
+    }
+    .header__top--logo {
+        padding: 1rem 0 ;
+    }
+    .header__content {
+        padding-top: 3rem;
+    }
+    .header__content--contact {
+        flex-wrap: wrap;
+    }
+    .button--video {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .header__content--tilte {
+        font-size: 5rem;
+        margin: 2rem 0;
+    }
+    .header__content--para {
+        margin-bottom: 2rem;
+    }
+}
